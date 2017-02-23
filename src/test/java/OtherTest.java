@@ -7,14 +7,8 @@ import org.openqa.selenium.By;
  */
 public class OtherTest {
 
-    private By locator = By.("asdfas");
-
     @Test
     public void generateException(){
-
-        WebDriverManager.getDriver().findElement(locator);
-
-
         throw new RuntimeException("life is pain");
     }
 
